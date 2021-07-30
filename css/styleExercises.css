@@ -1,0 +1,98 @@
+body {
+  font-family: Verdana, Geneva, sans-serif;
+  background-repeat: repeat;
+  background-position: center;
+}
+
+.bodyUno{
+  background-image: url("../img/ex1Wallpaper.jpg");
+}
+
+.bodyDos{
+  background-image: url("../img/ex2Wallpaper.jpg");
+}
+
+.bodyTres{
+  background-image: url("../img/ex3Wallpaper.jpg");
+}
+
+.fontEnunciado{
+  font-size: large;
+  color:rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+.divEnunciado{
+  padding:2vw;
+  height: auto;
+  width: auto;
+  background-color: rgba(220, 20, 60, 0.842);
+  border-radius: 1vh;
+  word-wrap: break-word;
+  max-width: 90vw;
+}
+
+.btnEjercicio{
+  padding-top:2vh;
+  padding-bottom:2vh;
+  padding-left:3vw;
+  padding-right:3vw;
+  min-height: 40px;
+  max-width: 300px;
+  margin:2vw;
+  height: auto;
+  width: auto;
+  border-color: white;
+  border-width: 5px;
+  border-radius: 1vh;
+  background-color: lightcoral;
+}
+
+.btnEjercicioUno{
+  background-color: lightcoral;
+}
+
+.btnEjercicioUno:hover{
+  background-color: rgb(185, 69, 69);
+}
+
+.btnEjercicioDos{
+  background-color: peru;
+}
+
+.btnEjercicioDos:hover{
+  background-color: rgb(161, 85, 8);
+}
+
+.btnEjercicioTres{
+  background-color: cadetblue;
+}
+
+.btnEjercicioTres:hover{
+  background-color: rgb(17, 127, 131);
+}
+
+.fontEjercicio{
+  font-size: large;
+  font-weight: bold;
+  color: white;
+}
+
+.rowExercise{
+  margin: 1vh;
+}
+
+.footerIndex{
+  left: -1px;
+  position: fixed;
+  bottom: 0;
+  width: 101%;
+  height: 40px;
+  background-color: crimson;
+  display: grid;
+  align-items: center;
+}
+
+.fontFooter{
+  color:rgb(255, 255, 255);
+}

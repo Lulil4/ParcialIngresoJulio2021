@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Uno</title>
+		<link rel="icon" type="image/png" href="../img/icon.png" />
+
+        <script type="text/javascript" src="01uno.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="../css/styleExercises.css">
+	</head>
+	<body class="bodyUno">
+
+		<table align="center">
+            <tr>
+                <td>
+					<div class="divEnunciado">
+					<p class="fontEnunciado">
+						Ejercicio UNO:<br>
+						Realizar el algoritmo que permita ingresar los datos de una compra de productos
+                        alimenticios, hasta que el cliente quiera. Por cada item  de la compra  se ingresa:<br>
+                        Tipo: (validar "yerba", "harina", "fideo").<br>
+                        marca,<br>
+                        Cantidad de paquetes. (más de cero).<br>
+                        Precio por paquete (más de cero).<br>
+                        a)	El importe total a pagar bruto, sin descuento.<br>
+                        b)	El importe total a pagar con descuento (solo si corresponde)<br>
+                        Si se compra total tiene  más de 5 paquetes se obtiene un 25% de descuento sobre el total a pagar.<br>
+                        Si se compra más de 10 paquetes en total se obtiene un 30% de descuento sobre el total a pagar.<br>
+                        c)	Informar el tipo con más cantidad de paquetes.<br>
+                        d)	El tipo , marca y cantidad  de la item mas caro de la compra. (sobre el Bruto sin descuento)<br>
+                        </p>
+					</div>
+				</td>
+            </tr>
+        </table>
+
+		<table align="center" style="padding-top:8vh">
+			<tr>
+                <td>
+					<button class="btnEjercicio btnEjercicioUno" onclick="mostrar()"><a class="fontEjercicio">Comenzar</a></button>
+				</td>
+            </tr>
+		</table>
+
+		<div class="footerIndex">
+			<table align="center">
+				<tr>
+					<td>
+						<a class="fontFooter">No olvides testear</a>					
+					</td>
+				</tr>
+			</table>
+		</div>
+	</body>
+</html>
