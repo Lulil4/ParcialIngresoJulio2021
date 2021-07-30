@@ -22,6 +22,10 @@ body {
   font-weight: bold;
 }
 
+.tituloSize{
+  font-size: x-large;
+}
+
 .divEnunciado{
   padding:2vw;
   height: auto;
