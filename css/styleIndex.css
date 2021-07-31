@@ -10,12 +10,17 @@ body {
 }
 
 .divTitulo{
+  margin-top: 1.5vh;
   padding:2vw;
-  margin: 0 auto;
+  display: grid;
+  justify-content: center;
+  align-content: center;
   height: auto;
   width: auto;
   background-color: crimson;
   border-radius: 1vh;
+  min-width: 450px;
+  min-height: 80px;
 }
 
 .btnEjercicio{
@@ -23,9 +28,11 @@ body {
   padding-bottom:2vh;
   padding-left:3vw;
   padding-right:3vw;
-  min-height: 40px;
+  min-height: 80px;
   max-width: 200px;
-  margin:2vw;
+  min-width: 160px;
+  margin-left: 4vw;
+  margin-right: 4vw;
   height: auto;
   width: auto;
   border-color: white;
@@ -80,4 +87,9 @@ body {
 
 .fontFooter{
   color:rgb(255, 255, 255);
+}
+
+.footerSignature{
+  position: fixed;
+  right: 3px;
 }
